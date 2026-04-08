@@ -1,0 +1,15 @@
+quarkus:
+  http:
+    port: 8082
+  datasource:
+    username: postgres
+    password: 65465456
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/db_konsulta_cambio
+    hibernate-orm:
+      database:
+        generation: update
+      log:
+        sql: true
+        format-sql: true
+        bind-parameters: true
