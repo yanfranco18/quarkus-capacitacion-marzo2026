@@ -86,6 +86,9 @@ app.config.password = valor
 app.config.email    = john@mail.com
 app.config.password = changeme
 
+formato avro (json) para guardar en el topico producer 
+2 particiones
+
 
 
 
